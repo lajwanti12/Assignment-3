@@ -1,0 +1,305 @@
+
+.line {
+    background-color: #224DA3;
+    height: 50px;
+  width: 100%;
+  text-align: center;
+}
+  .line a {
+    float: left;
+    padding: 15px 12px;
+    text-decoration: none;
+
+  }
+  
+  
+  label { 
+    position: absolute; 
+    left: 300px; 
+    top: 23px;
+     
+  }
+  .line button
+  {
+    float: right;
+    padding: 5px 2px;
+    text-decoration: none;
+    margin:10px   }
+  .navClass
+  {
+      background-color: white; 
+      color: black;
+       font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+  }
+  .logo{
+    margin-left: -200px;
+  }
+  .navClass > ul > li {
+      list-style-type: none;
+      display: inline-block;
+      padding: 5px 25px ;
+      position: relative;  
+  
+  }
+  .navClass > ul >li:hover{
+     background-color: #4574D3; 
+    
+  }
+  ul.sub-menu{
+      position: absolute;
+      background-color:white;
+      list-style-type: none;
+      width: 125px;
+      padding-left: 0px;
+      margin-left:  -25px ;  
+      padding-top: 60px;
+      opacity: 0;
+  }
+  ul.sub-menu li{
+      padding-left: 25px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-align: left;
+  
+  }
+  .navClass li:hover .sub-menu{
+      opacity: 1;
+      background-color:whitesmoke;
+  
+  
+  }
+  ul.sub-menu li:hover{
+      background-color: #4574D3;
+      color: white;
+  }
+  ul{
+    text-align: right;
+    padding-right: 25px ;
+    font-size: 20px;
+    margin-top: -50px;
+    z-index: -1;
+
+  }
+  .top{
+    position: sticky;
+    margin-top: 0px;
+    height: 10px;
+    width: 100%;
+  
+  }
+  .Million{
+    font-size: 20px;
+  }
+  a {
+    
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.sub-menu a{
+  font-size: 15px;
+}
+.slider{
+  margin-left:0px;
+  margin-top: 100px;
+}
+ .news-bar{
+  background-color: #316DC3;
+    height: 40px;
+    text-align: right;
+	 margin: 12px 30px;
+	 padding: 4px;
+	 color: white;
+	 font-size: 14px;
+	 height: 30px;
+	 width: 85%;
+
+} 
+ .news-bar span{
+	color: #00FF00;
+}
+.news-bar a{
+  color: #224DA3;
+}
+
+
+.introduction{
+  color: green;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  margin-top: 80px;
+  
+
+}
+.ind{
+  margin-top: 0px;
+  margin-left: 570px;
+}
+ .para{
+   margin-left: 200px;
+   margin-right: 200px;
+   font-size: 18px;
+ }
+ .DVD{
+   background-color: rgb(31, 94, 219);
+   width: 100%;
+   height: 200px;
+  
+ }
+ .DV img{
+  margin-top: 20px;
+  margin-left: 220px;
+ }
+ #two{
+  font-size: 45px;
+  color: blanchedalmond;
+  margin-left: 170px;}
+ #seven{
+  font-size: 45px;
+  color: blanchedalmond;
+  margin-left: 150px;
+}
+#four{
+  font-size: 45px;
+  color: blanchedalmond;
+  margin-left: 150px;
+}
+#one{
+  font-size: 45px;
+  color: blanchedalmond;
+  margin-left: 150px;
+}
+ 
+  .text{
+  
+    font-size: 15px; 
+    font-family: 'Times New Roman', Times, serif;
+  color: #fff;
+  
+}
+  #daily{
+    margin-left: 100px;
+  }
+  #family{
+    margin-left: 50px;
+
+  }
+  #medi{
+    margin-left: 90px;
+ 
+  }
+  #Edu{
+    margin-left: 100px;
+
+  }
+  .tab{
+    
+    text-align: center;
+    margin-top: 30px;
+    
+    font-weight: bold;
+  }
+  .log{
+    margin-left: 585px;
+  }
+   
+  #container {
+    margin: 30px auto; 
+    width: 100%;
+   background-color:whitesmoke;
+   height: 550px;
+  }
+  
+  .sections {
+    width: 21%;
+    height: 130px;
+    display: inline-block;
+    color: blue;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 80px;
+    margin-top: 50px;
+    background-color:white;
+    padding: 30px;
+    box-shadow: 5px 10px 5px 1px #D8DBE4;
+  }
+  
+  #mission h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+  #mission{
+    margin-left: 85px;
+    width: 60%;
+  }
+  .miss{
+    width: 40%;
+    height: 60px;
+    display: inline-block;
+    color: blue;
+    font-size: 20px;
+    margin-left: 04px;
+    margin-top: 50px;
+    padding: 15px;
+      box-shadow: 5px 10px 5px 1px #D8DBE4;  }
+      #s2{
+        width: 40%;
+        height: 73px;
+      }
+  .events h2{
+    color: blue;
+    font-weight: 500; }
+  .events{
+    width: 20%;
+    margin-left: 920px;
+    margin-top: -250px;
+  }
+  .gal{
+    font-size: 40px;
+    margin-left: 500px;
+    margin-top: 100px;
+  }
+ .gal img{
+   margin-top: 10px;
+   margin-left: 70px;
+ }
+   .imgal img{ 
+   height: 130px;
+   width: 17%;
+
+ } 
+.imgal{
+  margin-left: 178px;
+}
+.footer{
+  background-color: rgb(61, 58, 58);
+  color: beige;
+ margin-top:150px;  
+ width: 100%;
+ height: 300px;
+}
+.foot {
+  margin-left: 100px;
+
+}
+#links{
+font-size: 20px;
+font-weight: 1000px;
+} 
+#pc{
+  margin-left: 40px;}
+#connect{
+    font-size: 20px;
+  }
+  #hom{
+    background-color: #224DA3;
+    
+  }
+  .copyright{
+    background-color: #224DA3;
+    color: #fff;
+    padding: 15px;
+    
+  }
